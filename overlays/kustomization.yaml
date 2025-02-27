@@ -9,7 +9,7 @@ namespace: default
 patches:
 - target:
     kind: Deployment
-    name: nginx-deployment
+    name: nginx-deploymentk
   patch: |-
     apiVersion: apps/v1
     kind: Deployment
